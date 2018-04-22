@@ -10,9 +10,6 @@
 			<div class="post-meta">
 				Posted by {{author}} {{tags prefix=" in "}}
 			</div><!-- .post-meta -->
-			{{#if feature_image}}
-				<a href="{{{url}}}" class="post-thumbnail"><img src="{{feature_image}}" alt="{{title}}" /></a>
-			{{/if}}
 		</header><!-- .post-header -->
 		<div class="post-content">
 			{{#if custom_excerpt}}
@@ -20,7 +17,7 @@
 			{{else}}
 			<p>{{excerpt words="30"}}&hellip;</p>
 			{{/if}}
-			<p class="read-more"><a class="read-more-link" href="{{url}}" title="{{title}}">Continue reading <span class="screen-reader-text">{{title}} </span>&rarr;</a></p>
+			<p class="read-more"><a class="read-more-link" href="{{url}}" title="{{title}}">Click to Continue <span class="screen-reader-text">{{title}} </span>&rarr;</a></p>
 		</div><!-- .post-content -->
 	</article>
 {{/foreach}}
