@@ -319,18 +319,18 @@ textarea {
 }
 
 html {
-  border: 15px solid #2d72d9;
+  border: 3px solid #f5f5f5;
 }
 
 body {
-  color: #6b747a;
+  color: #212121;
   line-height: 1.66667;
   padding-left: 30px;
   padding-right: 30px;
 }
 
 a {
-  color: #2d72d9;
+  color: #1a73e8;
   text-decoration: none;
   -webkit-transition: color .3s ease;
   transition: color .3s ease;
@@ -347,7 +347,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #2c343c;
+  color: #212121;
   font-family: 'Droid Serif',Georgia,serif;
   font-weight: bold;
   line-height: 1.2;
@@ -360,6 +360,7 @@ h1 {
   letter-spacing: -1px;
   margin-bottom: 0.5em;
   margin-top: 0.83333em;
+  text-decoration: underline;
 }
 
 h2 {
@@ -623,7 +624,7 @@ video {
 }
 
 .site-title a:hover {
-  color: #2d72d9;
+  color: #1a73e8;
 }
 
 /* Navigation */
@@ -651,7 +652,7 @@ video {
 }
 
 .main-navigation a:hover {
-  color: #2d72d9;
+  color: #1a73e8;
 }
 
 /* Site description */
@@ -689,7 +690,7 @@ video {
 }
 
 .featured-post {
-  color: #2d72d9;
+  color: #1a73e8;
   padding-right: 5px;
 }
 
@@ -708,7 +709,7 @@ video {
 }
 
 .post-title a:hover {
-  color: #2d72d9;
+  color: #1a73e8;
 }
 
 .post-meta {
@@ -831,8 +832,8 @@ video {
 }
 
 .share-post a:hover {
-  border-color: #2d72d9;
-  color: #2d72d9;
+  border-color: #1a73e8;
+  color: #1a73e8;
 }
 
 /* ==========================================================================
@@ -906,7 +907,7 @@ video {
 }
 
 .offsite-links a:hover {
-  color: #2d72d9;
+  color: #1a73e8;
 }
 
 .footer-bottom {
@@ -934,8 +935,8 @@ video {
 }
 
 a.back-to-top:hover {
-  border-color: #2d72d9;
-  color: #2d72d9;
+  border-color: #1a73e8;
+  color: #1a73e8;
   text-decoration: none;
 }
 
