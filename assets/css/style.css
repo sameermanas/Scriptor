@@ -323,7 +323,7 @@ html {
 }
 
 body {
-  color: #212121;
+  color: #6b747a;
   line-height: 1.66667;
   padding-left: 30px;
   padding-right: 30px;
@@ -643,7 +643,7 @@ video {
 }
 
 .main-navigation a {
-  color: #212121;
+  color: #6b747a;
   display: inline-block;
   font-size: 1.11889em;
   font-weight: bold;
@@ -658,13 +658,13 @@ video {
 
 /* Site description */
 .site-description {
-  border-bottom: 3px solid #212121;
-  padding: 1.22222em 0 2.00333em;
+  border-bottom: 1px solid #6b747a;
+  padding: 0.32222em 0 1.00333em;
 }
 
 .site-description p {
   font-family: 'Droid Serif',Georgia,serif;
-  font-size: 1.33333em;
+  font-size: 0.93333em;
   font-style: italic;
   margin-bottom: 0;
 }
@@ -674,7 +674,7 @@ video {
    ========================================================================== */
 
 .post {
-  border-bottom: 3px solid #212121;
+  border-bottom: 1px solid #6b747a;
   padding: 3.33333em 0;
 }
 
