@@ -319,7 +319,7 @@ textarea {
 }
 
 html {
-  border: 3px solid #f5f5f5;
+  border: 15px solid #2e2e2e;
 }
 
 body {
@@ -589,7 +589,7 @@ video {
 
 .inner {
   margin: 0 auto;
-  max-width: 760px;
+  max-width: 85%;
 }
 
 /* ==========================================================================
@@ -597,13 +597,13 @@ video {
    ========================================================================== */
 
 .site-header {
-  border-bottom: 2px solid #1a73e8;
-  padding: 2.5em 0 3.33333em;
+  border-bottom: 1px solid #d7d7d7;
+  padding: 1.0em 0 2.3em;
 }
 
 .site-logo,
 .site-title {
-  margin: 0 30px 0 0;
+  margin: 0 20px 0 0;
 }
 
 .site-logo img {
@@ -858,10 +858,10 @@ video {
    ========================================================================== */
 
 .pagination {
-  border-bottom: 3px solid #212121;
+  border-bottom: 1px solid #d7d7d7;
   color: #606669;
   font-weight: bold;
-  padding: 1.22222em 0 2.33333em;
+  padding: 0.92222em 0 1.33333em;
   position: relative;
   text-align: center;
 }
@@ -869,7 +869,7 @@ video {
 .page-number {
   display: inline-block;
   font-size: 0.77778em;
-  line-height: 2.14285;
+  line-height: 1.14285;
   min-width: 180px;
 }
 
@@ -878,7 +878,7 @@ video {
   font-size: 1.00089em;
   line-height: 1.875;
   position: absolute;
-  top: 2.5em;
+  top: 1.5em;
 }
 
 .older-posts {
@@ -894,7 +894,7 @@ video {
    ========================================================================== */
 
 .site-footer {
-  padding: 1.66667em 0;
+  padding: 1.46667em 0;
 }
 
 .offsite-links {
@@ -904,7 +904,7 @@ video {
 .offsite-links a {
   color: #6b747a;
   display: inline-block;
-  font-size: 20px;
+  font-size: 18px;
   margin-right: 15px;
   text-decoration: none;
 }
