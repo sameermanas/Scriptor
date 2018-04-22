@@ -5,7 +5,6 @@
 			{{#if featured}}
 			<span class="featured-post">&darr; Featured</span>
 			{{/if}}
-			<time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time>
 			<h2 class="post-title"><a href="{{{url}}}" rel="bookmark">{{title}}</a></h2>
 			<div class="post-meta">
 				Posted by {{author}} {{tags prefix=" in "}}
@@ -15,7 +14,7 @@
 			{{#if custom_excerpt}}
 			<p>{{custom_excerpt}}</p>
 			{{else}}
-			<p>{{excerpt words="30"}}&hellip;</p>
+			<p>{{excerpt words="60"}}&hellip;</p>
 			{{/if}}
 			<p class="read-more"><a class="read-more-link" href="{{url}}" title="{{title}}">Click to Continue <span class="screen-reader-text">{{title}} </span>&rarr;</a></p>
 		</div><!-- .post-content -->
